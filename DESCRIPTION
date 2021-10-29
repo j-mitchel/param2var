@@ -1,0 +1,18 @@
+Package: param2var
+Title: Assigns Parameters to Global Variables for Debugging Purposes
+Version: 1.0.0
+Date: 2021-10-28
+Authors@R: c(person("Jonathan", "Mitchel", email="jonathan.mitchel3@gmail.com", role=c("cre","aut")))
+Maintainer: Jonathan mitchel <jonathan.mitchel3@gmail.com>
+Description: The function provided by this package aims to make it easier to
+    debug functions with many parameters. To debug such functions, it is common
+    to first assign the broken function's parameters as global variables. Then,
+    one can run the individual lines of the function to determine where it is broken.
+    As it can be a frustration to individually assign dozens of variables, this
+    package can be used to automatically assign a functions default parameters to
+    global variables. It can also override the defaults and globally set the values 
+    of any other specified parameters.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
