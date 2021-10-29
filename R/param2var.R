@@ -32,7 +32,7 @@
 #'
 param2var <- function(def_fn=NULL,rm_vars=FALSE,...) {
   myvals <- list(...)
-  print(myvals)
+
   # to assign the default values for the unspecified parameters
   if (!is.null(def_fn)) {
     default_vals <- formals(def_fn) # extract default param values from function
