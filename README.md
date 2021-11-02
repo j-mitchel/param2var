@@ -43,6 +43,6 @@ param2var(def_fn=my_test_function, p1=99, p2='bar')
 #> p6 <- 'baz'
 
 # After debugging, all of the variables we just set can easily be removed by 
-# setting rm_vars=FALSE
+# setting rm_vars=TRUE
 param2var(def_fn=my_test_function, p1=99, p2='bar', rm_vars=TRUE)
 ```
